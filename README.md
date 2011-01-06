@@ -6,6 +6,10 @@ It's in its infancy, but we'll add it to as we go.
 
 # Example Usage
 
+    Tender.configure do |t|
+      t.auth_token = "my secret key"
+    end
+
     discussion_attributes = {
       :body         => "Just wanted to say, your app is amazing.",      
       :title        => "Nice!",
