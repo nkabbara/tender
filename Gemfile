@@ -1,7 +1,7 @@
 source :gemcutter
 
 
-gem "httparty", "~> 0.4"
+gem "httparty", "~> 0.5"
 gem "hashie", "~> 0.1"
 gem "addressable", "~> 2.2"
 gem "activesupport", "~> 2.3"
